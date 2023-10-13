@@ -23,6 +23,27 @@ img {
 
 /* ---------------------------------------------------------------------------- */
 
+/* HEADER */
+
+header {
+  background-color: #404eed;
+  background-image: url(img/hero-bg.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  height: 620px;
+  padding: 26px 360px;
+}
+#link-nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+#button-download-header > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------------------- */
+
 /* SECTION CENTRALE */
 #color {
   background-color: #f6f6f6;
@@ -76,7 +97,7 @@ img {
   background-position: bottom;
   margin-bottom: 2.5rem;
 }
-#button-download {
+.button-download {
   margin-bottom: 6.5rem;
   border-radius: 35px;
   border: none;
@@ -153,12 +174,14 @@ div > a {
   text-decoration: none;
 }
 nav {
-  border-top: 1px solid #5865f2;
-  padding-top: 2rem;
   display: flex;
-  position: absolute;
   width: 69vw;
   justify-content: space-between;
+  position: absolute;
+}
+#footer-nav {
+  border-top: 1px solid #5865f2;
+  padding-top: 2rem;
   bottom: 10px;
 }
 #footer-nav-button {
