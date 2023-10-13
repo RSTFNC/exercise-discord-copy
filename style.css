@@ -16,12 +16,78 @@ img {
 }
 
 .extra-bold {
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* SECTION CENTRALE */
+/* ---------------------------------------------------------------------------- */
 
+/* SECTION CENTRALE */
+#color {
+  background-color: #f6f6f6;
+  padding: 7rem 0;
+}
 .txt-img-section {
   display: flex;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 0;
+}
+.txt {
+  width: 380px;
+  height: auto;
+}
+.txt > h2 {
+  line-height: 42.5px;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.txt > p {
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* SEZIONE DOWNLOAD */
+
+#download {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+#tecnologia {
+  width: 45rem;
+  font-size: 20px;
+  margin: 8rem 0 5rem;
+}
+#tecnologia > h1 {
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 800;
+}
+#img-download {
+  margin-bottom: 5rem;
+}
+#avventura {
+  background-image: url(img/stars.svg);
+  background-position: bottom;
+  margin-bottom: 2.5rem;
+}
+button {
+  border-radius: 25px;
+  border: none;
+  padding: 8px 16px;
+}
+.blue-button {
+  background-color: #5865f2;
+}
+.blue-button:hover {
+  background-color: #838be9;
+}
+.blue-button > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17.5px;
 }

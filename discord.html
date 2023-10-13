@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/discord logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Discord | Il luogo ideale per parlare e ritrovarsi</title>
   </head>
   <body>
@@ -16,9 +25,9 @@
     <article id="sezione-centrale">
       <section class="txt-img-section">
         <div>
-          <img src="img/info1.svg" alt="" />
+          <img src="img/info1.svg" alt />
         </div>
-        <div>
+        <div class="txt">
           <h2>Crea uno spazio su invito in cui sentirti partecipe</h2>
           <p>
             I server Discord sono organizzati in canali tematici in cui puoi
@@ -28,8 +37,8 @@
         </div>
       </section>
 
-      <section class="txt-img-section">
-        <div>
+      <section id="color" class="txt-img-section">
+        <div class="txt">
           <h2>Dove trovarsi è facile</h2>
           <p>
             Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel
@@ -38,15 +47,15 @@
           </p>
         </div>
         <div>
-          <img src="img/info2.svg" alt="" />
+          <img src="img/info2.svg" alt />
         </div>
       </section>
 
       <section class="txt-img-section">
         <div>
-          <img src="img/info3.svg" alt="" />
+          <img src="img/info3.svg" alt />
         </div>
-        <div>
+        <div class="txt">
           <h2>Crea uno spazio su invito in cui sentirti partecipe</h2>
           <p>
             I server Discord sono organizzati in canali tematici in cui puoi
@@ -59,14 +68,23 @@
 
     <!-- SEZIONE DOWNLOAD -->
 
-    <article>
+    <article id="download">
       <section>
-        <div>
+        <div id="tecnologia">
+          <h1>TECNOLOGIA AFFIDABILE PER TENERSI IN CONTATTO</h1>
+          <p>
+            Video e audio a bassa latenza ti faranno sentire come se foste tutti
+            nella stessa stanza. Fai ciao in video, guarda gli amici giocare in
+            streaming, o riunitevi in una sessione di disegno con la
+            condivisione schermo.
+          </p>
+        </div>
+        <div id="img-download">
           <img src="img/info-full.svg" alt="" />
         </div>
         <div>
-          <h2>Pronto a iniziare la tua avventura?</h2>
-          <button>
+          <h2 id="avventura">Pronto a iniziare la tua avventura?</h2>
+          <button class="blue-button">
             <a
               class="button-ZGMevK buttonBrand-24ECS3 buttonLarge-3z9xOS downloadButton-10yZAU"
               href="//discord.com/api/downloads/distributions/app/installers/latest?channel=stable&amp;platform=win&amp;arch=x86"
@@ -77,7 +95,7 @@
                 viewBox="0 0 24 24"
                 class="icon-2tQ9Jt"
               >
-                <g fill="currentColor">
+                <g fill="white">
                   <path
                     d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"
                   ></path>
