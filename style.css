@@ -75,13 +75,15 @@ img {
   background-position: bottom;
   margin-bottom: 2.5rem;
 }
-button {
+#button-download {
+  line-height: 20px;
   border-radius: 25px;
   border: none;
-  padding: 8px 16px;
+  padding: 8px 25px;
 }
 .blue-button {
   background-color: #5865f2;
+  margin-bottom: 6.5rem;
 }
 .blue-button:hover {
   background-color: #838be9;
@@ -90,4 +92,17 @@ button {
   text-decoration: none;
   color: #fff;
   font-size: 17.5px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* FOOTER */
+footer {
+  background-color: #23272a;
+}
+nav > button {
+  border: none;
+  border-radius: 25px;
+  padding: 7px 16px;
+  font-size: 14px;
 }
