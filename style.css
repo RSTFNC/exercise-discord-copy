@@ -78,9 +78,9 @@ img {
 }
 #button-download {
   margin-bottom: 6.5rem;
-  border-radius: 25px;
+  border-radius: 35px;
   border: none;
-  padding: 8px 25px;
+  padding: 16px 32px;
 }
 #button-download {
   background-color: #5865f2;
@@ -91,7 +91,7 @@ img {
 #button-download > a {
   text-decoration: none;
   color: #fff;
-  font-size: 17.5px;
+  font-size: 20px;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -99,17 +99,28 @@ img {
 /* FOOTER */
 footer {
   background-color: #23272a;
-  padding: 4rem 2rem;
+  padding: 4rem 20rem;
 }
 #main-section-footer {
   position: relative;
-  height: 500px;
+  height: 570px;
 }
 #main-div-footer {
   display: flex;
+  justify-content: space-between;
+  height: 420px;
 }
 #link-footer {
   display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: auto;
+  line-height: 2rem;
+}
+#link-footer > div > p {
+  font-size: 18px;
+  color: #5865f2;
+  margin-bottom: 2rem;
 }
 #lingua {
   display: flex;
@@ -119,6 +130,11 @@ footer {
   width: 24px;
   height: 16px;
   margin-right: 2px;
+}
+#social {
+  margin-top: 48px;
+  display: flex;
+  gap: 30px;
 }
 select {
   background-color: #23272a;
@@ -141,7 +157,7 @@ nav {
   padding-top: 2rem;
   display: flex;
   position: absolute;
-  width: 93vw;
+  width: 69vw;
   justify-content: space-between;
   bottom: 10px;
 }
