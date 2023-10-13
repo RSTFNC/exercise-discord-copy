@@ -1,0 +1,21 @@
+/* Remember to download Noto Sans and Montserrat fonts from Google Fonts: https://fonts.google.com/ */
+
+:root{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.extra-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
