@@ -63,6 +63,7 @@ img {
   margin: 8rem 0 5rem;
 }
 #tecnologia > h1 {
+  font-family: "Kanit", sans-serif;
   line-height: 50px;
   font-size: 50px;
   font-weight: 800;
@@ -76,19 +77,18 @@ img {
   margin-bottom: 2.5rem;
 }
 #button-download {
-  line-height: 20px;
+  margin-bottom: 6.5rem;
   border-radius: 25px;
   border: none;
   padding: 8px 25px;
 }
-.blue-button {
+#button-download {
   background-color: #5865f2;
-  margin-bottom: 6.5rem;
 }
-.blue-button:hover {
+#button-download:hover {
   background-color: #838be9;
 }
-.blue-button > a {
+#button-download > a {
   text-decoration: none;
   color: #fff;
   font-size: 17.5px;
@@ -99,10 +99,67 @@ img {
 /* FOOTER */
 footer {
   background-color: #23272a;
+  padding: 4rem 2rem;
 }
-nav > button {
+#main-section-footer {
+  position: relative;
+  height: 500px;
+}
+#main-div-footer {
+  display: flex;
+}
+#link-footer {
+  display: flex;
+}
+#lingua {
+  display: flex;
+  align-items: center;
+}
+#lingua > img {
+  width: 24px;
+  height: 16px;
+  margin-right: 2px;
+}
+select {
+  background-color: #23272a;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+option {
+  background-color: #23272a;
+  color: #fff;
+}
+div > a {
+  color: #fff;
+  text-decoration: none;
+}
+nav {
+  border-top: 1px solid #5865f2;
+  padding-top: 2rem;
+  display: flex;
+  position: absolute;
+  width: 93vw;
+  justify-content: space-between;
+  bottom: 10px;
+}
+#footer-nav-button {
+  background-color: #5865f2;
+}
+#footer-nav-button:hover {
+  background-color: #838be9;
+}
+#footer-nav-button > a {
+  color: #fff;
+}
+.nav-button {
   border: none;
   border-radius: 25px;
   padding: 7px 16px;
+}
+.nav-button > a {
+  text-decoration: none;
   font-size: 14px;
 }
