@@ -60,10 +60,10 @@ header {
   bottom: 0;
 }
 #img-1 {
-  left: 7rem;
+  left: 6rem;
 }
 #img-2 {
-  right: 7rem;
+  right: 6rem;
 }
 #nav {
   display: flex;
@@ -216,12 +216,17 @@ footer {
 #link-footer {
   display: flex;
   justify-content: space-between;
+  font-size: 16px;
   width: 60%;
   height: auto;
   line-height: 2rem;
 }
+#link-footer > div {
+  width: 200px;
+}
+
 #link-footer > div > p {
-  font-size: 18px;
+  font-size: 16px;
   color: #5865f2;
   margin-bottom: 2rem;
 }
