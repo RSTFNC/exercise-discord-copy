@@ -37,11 +37,51 @@ header {
   display: flex;
   justify-content: space-between;
 }
+#button-download-header {
+  margin: 24px 24px 0 0;
+}
+#centro-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 620px;
+  width: 100%;
+}
+#testo-header {
+  color: #fff;
+  width: 550px;
+}
+#testo-header > h1 {
+  font-size: 60px;
+  line-height: 3rem;
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 50px;
+}
+#testo-header > p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
 #button-download-header > a {
   text-decoration: none;
   color: #000;
   font-size: 20px;
 }
+#open-discord {
+  background-color: #23272a;
+  padding: 22px 32px;
+  margin-bottom: 0;
+}
+#open-discord:hover {
+  background-color: #000;
+}
+#open-discord > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
 /* ---------------------------------------------------------------------------- */
 
 /* SECTION CENTRALE */
@@ -61,11 +101,13 @@ header {
   height: auto;
 }
 .txt > h2 {
+  font-family: "Montserrat", sans-serif;
   line-height: 42.5px;
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 .txt > p {
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 /* ---------------------------------------------------------------------------- */
@@ -89,6 +131,10 @@ header {
   font-size: 50px;
   font-weight: 800;
 }
+#tecnologia > p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+}
 #img-download {
   margin-bottom: 5rem;
 }
@@ -97,7 +143,7 @@ header {
   background-position: bottom;
   margin-bottom: 2.5rem;
 }
-.button-download {
+.large-button {
   margin-bottom: 6.5rem;
   border-radius: 35px;
   border: none;
