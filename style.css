@@ -4,7 +4,16 @@
   font-family: "Noto Sans", sans-serif;
   font-size: 18px;
 }
-
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8rem;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +26,6 @@ img {
 
 .extra-bold {
   font-weight: 900;
-  font-family: "Kanit", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -28,14 +36,42 @@ img {
 header {
   background-color: #404eed;
   background-image: url(img/hero-bg.svg);
+  background-position-x: center;
   background-origin: border-box;
   background-repeat: no-repeat;
   height: 620px;
-  padding: 26px 360px;
+}
+#main-section {
+  position: relative;
+  height: 620px;
 }
 #link-nav-header {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+#img-header > img {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
+#img-1 {
+  left: 7rem;
+}
+#img-2 {
+  right: 7rem;
+}
+#nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#n {
+  margin-top: 23px;
 }
 #button-download-header {
   margin: 24px 24px 0 0;
@@ -51,17 +87,17 @@ header {
 }
 #testo-header {
   color: #fff;
-  width: 550px;
+  width: 800px;
+  z-index: 2;
 }
 #testo-header > h1 {
-  font-size: 60px;
+  font-size: 70px;
   line-height: 3rem;
   font-family: "Kanit", sans-serif;
-  margin-bottom: 50px;
+  margin: 100px 0 50px;
 }
-#testo-header > p {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+#button-download-header {
+  background-color: #fff;
 }
 #button-download-header > a {
   text-decoration: none;
@@ -74,7 +110,8 @@ header {
   margin-bottom: 0;
 }
 #open-discord:hover {
-  background-color: #000;
+  background-color: #313338;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
 #open-discord > a {
   text-decoration: none;
@@ -100,15 +137,11 @@ header {
   width: 380px;
   height: auto;
 }
-.txt > h2 {
+.txt > h3 {
   font-family: "Montserrat", sans-serif;
   line-height: 42.5px;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-}
-.txt > p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
 }
 /* ---------------------------------------------------------------------------- */
 
@@ -125,15 +158,11 @@ header {
   font-size: 20px;
   margin: 8rem 0 5rem;
 }
-#tecnologia > h1 {
+#tecnologia > h2 {
   font-family: "Kanit", sans-serif;
   line-height: 50px;
   font-size: 50px;
   font-weight: 800;
-}
-#tecnologia > p {
-  font-family: "Montserrat", sans-serif;
-  line-height: 2rem;
 }
 #img-download {
   margin-bottom: 5rem;
@@ -141,13 +170,20 @@ header {
 #avventura {
   background-image: url(img/stars.svg);
   background-position: bottom;
-  margin-bottom: 2.5rem;
+  height: 40px;
+  margin-bottom: 2.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  line-height: 2.3rem;
 }
 .large-button {
   margin-bottom: 6.5rem;
   border-radius: 35px;
   border: none;
   padding: 16px 32px;
+}
+.large-button:hover {
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
 #button-download {
   background-color: #5865f2;
@@ -221,7 +257,7 @@ div > a {
 }
 nav {
   display: flex;
-  width: 69vw;
+  width: 65.7rem;
   justify-content: space-between;
   position: absolute;
 }
@@ -243,6 +279,9 @@ nav {
   border: none;
   border-radius: 25px;
   padding: 7px 16px;
+}
+.nav-button:hover {
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .nav-button > a {
   text-decoration: none;
