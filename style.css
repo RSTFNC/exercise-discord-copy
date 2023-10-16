@@ -28,6 +28,7 @@ img {
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
 }
+/* ---------------------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------------------- */
 
@@ -230,19 +231,55 @@ footer {
   color: #5865f2;
   margin-bottom: 2rem;
 }
-#lingua {
-  display: flex;
-  align-items: center;
+#dropdown {
+  margin-top: 30px;
+  position: relative;
+  top: -235px;
 }
-#lingua > img {
+#dropdown-head {
+  margin-top: 10px;
+}
+.language-selector {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 3px;
+}
+.language-selector > img {
   width: 24px;
   height: 16px;
   margin-right: 2px;
 }
+.language-selector > p > a {
+  color: #000;
+  text-decoration: none;
+}
+#menù {
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 30px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.dropdown-menù {
+  margin: 7.5px 15px 0;
+}
+#menù:hover {
+  opacity: 1;
+}
+
+.language-selector > button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
 #social {
   margin-top: 48px;
   display: flex;
   gap: 30px;
+  position: relative;
+  top: -235px;
 }
 select {
   background-color: #23272a;
