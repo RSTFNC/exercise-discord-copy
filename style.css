@@ -245,7 +245,6 @@ footer {
   margin-bottom: 2rem;
 }
 #dropdown {
-  margin-top: 30px;
   position: relative;
   top: -235px;
 }
@@ -281,9 +280,7 @@ footer {
   opacity: 1;
 }
 
-.language-selector > button {
-  background-color: transparent;
-  border: none;
+.language-selector > p {
   color: #fff;
 }
 
